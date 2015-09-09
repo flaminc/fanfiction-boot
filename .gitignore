@@ -1,4 +1,17 @@
-# IntelliJ
+# Local todo list
+todo.txt
+
+bin/
+
+# Application specific
+data/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
 .idea/
 *.iml
 *.ipr
@@ -9,10 +22,12 @@
 build/
 out/
 
-# Testing account credentials
-src/test/resources/credentials.json
+# Mac
+.DS_Store
 
-# Local todo list
-todo.txt
+# Maven
+log/
+target/
 
-bin/
+# JRebel
+/src/main/resources/rebel.xml
